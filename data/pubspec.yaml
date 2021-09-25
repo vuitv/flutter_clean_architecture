@@ -1,0 +1,40 @@
+name: data
+description: A new Flutter project.
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  core:
+    path: ../core
+  domain:
+    path: ../domain
+
+  utils:
+    path: ../plugin/utils
+
+  # inversion of control
+  get_it: 7.2.0
+  # network
+  dio: 4.0.0
+  shared_preferences: 2.0.8
+  internet_connection_checker: 0.0.1+2
+  package_info: 2.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # flutter packages pub run build_runner watch
+  build_runner:
+  mockito: ^5.0.16
+
+# The following section is specific to Flutter.
+flutter:
+

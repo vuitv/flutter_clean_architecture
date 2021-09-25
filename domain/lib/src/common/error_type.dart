@@ -1,0 +1,1 @@
+enum ErrorType { POOR_NETWORK, NO_NETWORK, SERVER, GENERIC }

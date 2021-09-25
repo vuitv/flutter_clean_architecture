@@ -1,0 +1,27 @@
+name: domain
+description: A new Flutter project.
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  get_it: 7.2.0
+  equatable: 2.0.3
+
+  dio: 4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # flutter packages pub run build_runner watch
+  build_runner:
+
+# The following section is specific to Flutter.
+flutter:

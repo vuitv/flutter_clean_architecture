@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name_release">Flutter</string>
+    <string name="app_name_staging">Flutter Staging</string>
+    <string name="app_name_dev">Flutter Dev</string>
+</resources>
