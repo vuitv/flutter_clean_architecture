@@ -42,7 +42,7 @@ class _AppViewState extends State<AppView> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Beemart',
+      title: 'Flutter',
       debugShowCheckedModeBanner: false,
       theme: Themes.lightTheme,
       locale: const Locale('vi', ''),
